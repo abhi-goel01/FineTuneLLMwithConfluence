@@ -1,8 +1,8 @@
 # FineTuneLLMwithConfluence
 
-Fine tune the GPT Large Language Model with custom data to utilize Q&A, summarization and many other ChatGPT like functionalities
+Fine tune the GPT Large Language Model to utilize Q&A, summarization and many other ChatGPT like functionalities on your **organization data**
 
-We will use llama-hub to read custom data from our confluence pages and then llama-index to convert the loaded content into a vector index. Then we will load the vector index as a query engine and use it to query custom data from the LLM. We will also create a Gradio based UI to use the project in a more user friendly way.
+We will use llama-hub to read custom data from our confluence pages and then llama-index to convert the loaded content into a vector index. The vector index will be then loaded as a query engine and used to query custom data from the LLM. We will also create a Gradio based UI to use the functionalities in a more user friendly way.
 
 # Pre-requisites
 
@@ -11,7 +11,7 @@ We will use llama-hub to read custom data from our confluence pages and then lla
 3. Confluence API token: Generate the token from confluence - The token should be a combination of userid:<confluence token>
 4. open AI key: Generate a key from openai in order to integrate with the GPT Large Language Model
 
-Note: Confluence API's only support basic auth so change bearer token to basic in rest_api.py file
+Note: Confluence API's only support basic auth so change bearer token to basic token in rest_api.py file
 
 
 # References
