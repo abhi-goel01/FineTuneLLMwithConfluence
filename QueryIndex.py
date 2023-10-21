@@ -1,8 +1,7 @@
 import os
 from llama_index import StorageContext, load_index_from_storage
 
-os.environ['OPENAI_API_KEY'] = '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'
-#os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '<your key>'
 
 # rebuild storage context
 storage_context = StorageContext.from_defaults(persist_dir='IndexData/Index.json')
