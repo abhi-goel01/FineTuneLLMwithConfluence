@@ -2,11 +2,10 @@ import os
 from llama_hub.confluence.base import ConfluenceReader
 from llama_index import VectorStoreIndex
 
-os.environ["CONFLUENCE_API_TOKEN"] = "YWJoaS5idWdzQGdtYWlsLmNvbTpBVEFUVDN4RmZHRjBoX2Y1dnNUNUtwOUQ2SVFURnlUaGNfWnB4V3ZGeFpHcl95S0RRRHN4VjZrVUdrN0dLOVhvZEc3dmh5QUQ3Y2xER0RsbG43cU11cEd3RjNORF9ZNl9iLTZ1cmhGV3Q4bTYxRW5US3hJM2RRa2ZsWFFUOXlhblYzR3VtdW5VcDRPTnVaWGtERWVRMVlZNVJ5OTdhTUdyM2QtRHVCMkZxeW5CVXBvQVF0X3VCcGs9NDNEQjY0RjQ="
-os.environ['OPENAI_API_KEY'] = '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'
-#os.environ['OPENAI_API_KEY'] = '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'
-base_url = "https://gen8iveai.atlassian.net/wiki/"
-space_key = 'DE'
+os.environ["CONFLUENCE_API_TOKEN"] = "<your key>"
+os.environ['OPENAI_API_KEY'] = "<your-key"
+base_url = "<your base URL"
+space_key = "<your space key>"
 
 # Read the confluence pages using llama_hub confluence data connector
 reader = ConfluenceReader(base_url=base_url)
