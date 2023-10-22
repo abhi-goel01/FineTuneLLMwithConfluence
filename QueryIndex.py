@@ -4,7 +4,7 @@ from llama_index import StorageContext, load_index_from_storage
 os.environ['OPENAI_API_KEY'] = '<your key>'
 
 # rebuild storage context
-storage_context = StorageContext.from_defaults(persist_dir='IndexData/Index.json')
+storage_context = StorageContext.from_defaults(persist_dir='IndexDataNew/Index.json')
 # load index
 output_index = load_index_from_storage(storage_context)
 
