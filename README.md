@@ -6,7 +6,7 @@ We will use llama-hub to read custom data from our confluence pages and then lla
 
 # Pre-requisites
 
-1. Base URL: URL for a Confluence instance to initialize the ConfluenceReader - base URL needs to end with /wiki
+1. Base URL: URL for a Confluence instance to initialize the ConfluenceReader, it must end with /wiki
 2. Space Key: The confluence space from where all the pages will be read
 3. Confluence API token: Generate the token from confluence - The token should be a combination of userid:<confluence token>
 4. open AI key: Generate a key from openai in order to integrate with the GPT Large Language Model
