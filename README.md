@@ -20,3 +20,4 @@ Note: Confluence API's only support basic auth so change bearer token to basic i
 2. https://github.com/run-llama/llama_index
 3. https://www.gradio.app/guides/quickstart
 4. https://github.com/prodramp/DeepWorks/tree/main/ChatGPT/finetunellm
+5. https://towardsdatascience.com/llamaindex-the-ultimate-llm-framework-for-indexing-and-retrieval-fa588d8ca03e
