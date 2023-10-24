@@ -21,3 +21,4 @@ Note: Confluence API's only support basic auth so change bearer token to basic i
 3. https://www.gradio.app/guides/quickstart
 4. https://github.com/prodramp/DeepWorks/tree/main/ChatGPT/finetunellm
 5. https://towardsdatascience.com/llamaindex-the-ultimate-llm-framework-for-indexing-and-retrieval-fa588d8ca03e
+6. https://medium.com/rahasak/creating-custom-chatgpt-with-your-own-dataset-using-openai-gpt-3-5-model-llamaindex-and-langchain-5d5837bf9d56
